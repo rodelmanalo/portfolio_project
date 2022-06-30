@@ -1,0 +1,3 @@
+[submodule "portfolio_project"]
+	path = portfolio_project
+	url = https://github.com/rodelmanalo/portfolio_project.git
