@@ -5,10 +5,11 @@ import Skills from '../components/container/Skills/Skills'
 import Work from '../components/container/Work/Work'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/container/Footer/Footer'
+import styles from './index.module.scss'
 
 export function Index() {
   return (
-    <div className="app">
+    <div className={styles.app}>
       <Navbar />
       <Header />
       <About />
