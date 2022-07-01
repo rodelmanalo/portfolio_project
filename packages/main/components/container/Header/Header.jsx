@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { AppWrap } from '../../wrapper'
 import { images } from '../../constants'
 import './Header.module.scss'
+import Image from 'next/image'
 
 const scaleVariants = {
   whileInView: {
@@ -43,7 +44,7 @@ const Header = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__header-img"
       >
-        <img src={images.heropic} alt="heropic.bg" />
+        <Image src={images.heropic} alt="heropic.bg" />
         <motion.img
           whileInView={{ scale: [0, 1] }}
           transition={{ duration: 1, ease: 'easeInOut' }}
